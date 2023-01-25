@@ -1,0 +1,145 @@
+#overWive{
+    width: 100vw;
+    height: 30vh;
+  /*  background-image: url('../images/sky-nagsh-ir-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    background: 
+        linear-gradient(to top, rgb(168, 36, 36) , transparent),
+         url('../images/sky-nagsh-ir-2.jpg') center/cover no-repeat,
+        rgb(150, 209, 227) ;
+}
+@media (min-width :  40rem) {
+    #overWive{
+        height: 50vh;
+    }
+    
+}
+.section__title{
+    color: blue;
+    text-align: center;
+}
+.plan__list{
+    width: 65%;
+    margin: auto;
+}
+.paln{
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    color: rgba(71, 58, 58, 0.532);
+    box-shadow: 0 0 25px 5px rgb(21, 25, 29);
+    direction: rtl;
+    border-radius: 3px;
+
+}
+.plan__mor_effect{
+    background: #bddee9;
+    color: rgb(247, 8, 64);
+
+}
+.plan__title__mor_effect{
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+.paln__faetures{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.paln__faeturer{
+    margin: 0.3rem;
+}
+@media (min-width :  40rem) {
+    .paln {
+        display: inline-block;
+        width:30%;
+        vertical-align: middle;
+    }  
+}
+.butten__btn{
+    background:rgba(58, 20, 230, 0.862) ;
+    color: aliceblue;
+    font: inherit;
+    border: none;
+    padding: 0.25rem 1rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    outline: none;
+}
+#features{
+    background-color: rgb(207, 209, 211);
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+#features .section__title{
+    margin: 2rem;
+}
+.features__list{
+    list-style: none;
+    margin: 0;
+     padding: 0;
+     text-align: center;
+}
+/*.features__list--element{
+    display: inline-block;
+    width:30% ;
+}*/
+@media(min-width:40rem){
+    .features__list--element{
+        display: inline-block;
+        width:30% ;
+    }
+}
+.features__image{
+    background-color: rgba(0, 255, 255, 0.327);
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color:  rgba(233, 240, 240, 0.327);
+    margin: auto;
+}
+.features__discription{
+    text-align: center;
+    color: rgb(36, 106, 159);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.modal{
+    position: fixed;
+    opacity: 0;
+    z-index: 200;
+    top:20%;
+    left: 38%;
+    width: 25%;
+    background:#fff ;
+    padding: 1rem ;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px  rgba(0 0 0 ,0.5);
+}
+.modal__title{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.modal__actions{
+    text-align: center;
+}
+.modal__action{
+    border: 1px solid #1565c0;
+    background:  #1565c0;
+     text-decoration: none;
+     color: bisque;
+     font: inherit;
+     padding: 0.5 1 rem;
+     border-radius: 3px;
+}
+.modal__action--negetive{
+    background: brown;
+    border: brown;
+
+}

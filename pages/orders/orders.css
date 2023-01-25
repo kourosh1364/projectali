@@ -1,0 +1,60 @@
+main{
+
+    padding-top: 2rem;
+    direction: rtl;
+}
+.form-title{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color:#1565c0;
+    margin-top: 3rem;
+}
+.order-form input:not([type='checkbox']){
+    display: block;
+    margin: top;
+    width: 100%;
+    font: inherit;
+}
+.order-form input{
+    border:  1px solid #1565c0;
+    padding: 0.2rem;
+    outline: none;
+
+}
+
+.order-form input[type='checkbox'],
+.order-form input[type='checkbox'], label{
+    display: inline-block;
+    width: auto;
+}
+.order-form input[type='checkbox']{
+    border: 1rem solid #1565c0;
+    width: 1rem;
+    height: 1rem;
+   /* appearance: none;*/
+
+
+
+}
+.order-form button{
+
+    display: block;
+    margin-top:0.5rem;
+    border-radius: 3pc;
+    border: none;
+    color: azure;
+    background-color: #1565c0;
+    font: inherit;
+}
+.order-form{
+    padding: 1rem;
+
+}
+@media (min-width:40rem) {
+    .order-form{
+       margin: auto;
+        width: 30rem;
+    }
+    
+}
