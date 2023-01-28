@@ -1,3 +1,4 @@
 nodeMadules/
 *.txt
 *.docx
+!mm23.txt
